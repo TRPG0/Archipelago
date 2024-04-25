@@ -1,13 +1,17 @@
-class Tracks:
-    T1 = "Track 1"
-    T2 = "Track 2"
-    T3 = "Track 3"
-    T4 = "Track 4"
-    T5 = "Track 5"
-    T6 = "Track 6"
-    T7 = "Track 7"
-    T8 = "Track 8"
-    T9 = "Track 9"
-    T10 = "Track 10"
-    T11 = "Track 11"
-    T12 = "Track 12"
+from typing import Dict
+
+
+region_table: Dict[str, str] = {
+    "T1": "Track 1",
+    "T2": "Track 2",
+    "T3": "Track 3",
+    "T4": "Track 4",
+    "T5": "Track 5",
+    "T6": "Track 6",
+    "T7": "Track 7",
+    "T8": "Track 8",
+    "T9": "Track 9",
+    "T10": "Track 10",
+    "T11": "Track 11",
+    "T12": "Track 12"
+}

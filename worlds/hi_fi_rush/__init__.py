@@ -3,6 +3,7 @@ from BaseClasses import MultiWorld, Region, Location, Item, Tutorial, ItemClassi
 from worlds.AutoWorld import World, WebWorld
 from .Items import base_id, item_table
 from .Locations import location_table
+from .Regions import region_table
 from .Options import HiFiRushOptions
 
 
@@ -37,7 +38,10 @@ class HiFiRushWorld(World):
 
 
     def create_item(self, name: str) -> "HiFiRushItem":
-        pass
+        item_id: int = self.item_name_to_id[name]
+        id = item_id - base_id
+
+        return HiFiRushItem(name, item_table[id]["classification"], item_id, self.player)
 
 
     def create_event(self, event: str) -> "HiFiRushItem":
@@ -49,11 +53,33 @@ class HiFiRushWorld(World):
 
 
     def create_items(self):
-        pass
+        pool = []
+
+        for item in item_table:
+            for _ in range(item["count"]):
+                pool.append(self.create_item(item["name"]))
+
+        self.multiworld.itempool += pool
 
 
     def create_regions(self):
-        pass
+        player = self.player
+        multiworld = self.multiworld
+
+        menu = Region("Menu", player, multiworld)
+
+        for _, name in region_table.items():
+            multiworld.regions += [Region(name, player, multiworld)]
+            menu.add_exits({name})
+
+        multiworld.regions += [menu]
+
+        for loc in location_table:
+            id = base_id + location_table.index(loc)
+            region: Region = self.get_region(region_table[loc["region"]])
+            location: HiFiRushLocation = HiFiRushLocation(player, loc["name"], id, region)
+            region.locations.append(location)
+
 
 
     def fill_slot_data(self) -> Dict[str, Any]:
