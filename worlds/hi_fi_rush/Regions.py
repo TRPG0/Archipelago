@@ -2,6 +2,7 @@ from typing import Dict
 
 
 region_table: Dict[str, str] = {
+    "S": "Store",
     "T1": "Track 1",
     "T2": "Track 2",
     "T3": "Track 3",

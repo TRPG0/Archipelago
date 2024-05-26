@@ -49,7 +49,29 @@ class HiFiRushWorld(World):
 
 
     def get_filler_item_name(self) -> str:
-        pass
+        names = [
+            "Gears x4,000",
+            "Gears x5,000",
+            "Gears x6,000",
+            "Gears x7,500",
+            "Gears x8,500",
+            "Gears x10,000",
+            "Gears x12,500",
+            "Gears x15,000",
+            "Gears x17,500",
+            "Gears x20,000",
+            "Gears x25,000",
+            "Gears x30,000",
+            "Gears x35,000",
+            "Gears x40,000",
+            "Gears x45,000",
+            "Gears x50,000",
+            "Gears x60,000",
+            "Gears x65,000",
+            "Gears x80,000"
+        ]
+
+        return self.random.choice(names)
 
 
     def create_items(self):
@@ -58,6 +80,9 @@ class HiFiRushWorld(World):
         for item in item_table:
             for _ in range(item["count"]):
                 pool.append(self.create_item(item["name"]))
+
+        for _ in range(len(self.multiworld.get_unfilled_locations(self.player)) - len(pool)):
+            pool.append(self.create_item(self.get_filler_item_name()))
 
         self.multiworld.itempool += pool
 
@@ -75,6 +100,10 @@ class HiFiRushWorld(World):
         multiworld.regions += [menu]
 
         for loc in location_table:
+            if "VLog" in loc["name"] and not self.options.vlog_rewards:
+                continue
+            if "Graffiti" in loc["name"] and not self.options.graffiti_rewards:
+                continue
             id = base_id + location_table.index(loc)
             region: Region = self.get_region(region_table[loc["region"]])
             location: HiFiRushLocation = HiFiRushLocation(player, loc["name"], id, region)
