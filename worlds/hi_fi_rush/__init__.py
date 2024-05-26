@@ -112,7 +112,11 @@ class HiFiRushWorld(World):
 
 
     def fill_slot_data(self) -> Dict[str, Any]:
-        pass
+        slot_data: Dict[str, Any] = {
+            "locations": {loc["flag"]: (base_id + index) for index, loc in enumerate(location_table)}
+        }
+
+        return slot_data
 
 
 class HiFiRushItem(Item):
