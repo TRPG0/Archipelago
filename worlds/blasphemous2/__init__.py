@@ -113,6 +113,9 @@ class Blasphemous2World(World):
             location = self.get_location(l["name"])
             set_rule(location, blas2_logic.load_rule(l))
 
+            if l["name"] == "Z1808.r6":
+                multiworld.completion_condition[self.player] = blas2_logic.load_rule(l)
+
 
     def fill_slot_data(self) -> Dict[str, Any]:
         randomizerSettings = {
@@ -131,7 +134,6 @@ class Blasphemous2World(World):
             "locations": [{"internal": location, "ap": index} for index, location in enumerate(location_names)]
         }
 
-        print(slot_data)
         return slot_data
 
 
