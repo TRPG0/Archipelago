@@ -208,7 +208,7 @@ item_list: List[Blas2Item] = [
     Blas2Item("Tears of Atonement (2000)", IC.filler, 5),
     Blas2Item("Tears of Atonement (1800)", IC.filler, 2),
     Blas2Item("Tears of Atonement (1200)", IC.filler, 3),
-    Blas2Item("Tears of Atonement (800)", IC.filler, 8)
+    Blas2Item("Tears of Atonement (800)", IC.filler, 19) # 8 
 ]
 
 filler_list: List[str] = [
