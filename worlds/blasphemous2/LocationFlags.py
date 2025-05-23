@@ -1,0 +1,121 @@
+# This file is programatically generated
+from typing import Dict, List
+
+
+location_flags: Dict[str, List[str]] = {
+    "A": [
+        "Z0823.a0",
+        "Z0926.a0",
+        "Z1615.a0",
+        "Z1919.a0",
+        "Z2308.a0"
+    ],
+    "B": [
+        "Z0106.r8",
+        "Z0421.r8",
+        "Z0730.r6",
+        "Z0921.r14",
+        "Z1113.i8",
+        "Z1113.r8",
+        "Z1216.i9",
+        "Z1216.r9",
+        "Z1327.i7",
+        "Z1327.r7",
+        "Z1622.i6",
+        "Z1622.r6",
+        "Z1808.r6",
+        "Z2304.r15",
+        "Z2735.r7",
+        "Z2827.r7"
+    ],
+    "C": [
+        "Z0203.c0",
+        "Z0204.c0",
+        "Z0302.c0",
+        "Z0308.c0",
+        "Z0312.c0",
+        "Z0406.c0",
+        "Z0501.c0",
+        "Z0502.c0",
+        "Z0503.c0",
+        "Z0608.c0",
+        "Z0715.c0",
+        "Z0806.c0",
+        "Z0809.c0",
+        "Z0923.c0",
+        "Z0928.c0",
+        "Z1019.c0",
+        "Z1023.c0",
+        "Z1050.c0",
+        "Z1058.c0",
+        "Z1114.c0",
+        "Z1202.c0",
+        "Z1303.c0",
+        "Z1304.c0",
+        "Z1404.c0",
+        "Z1408.c0",
+        "Z1605.c0",
+        "Z1623.c0",
+        "Z1701.c0",
+        "Z1905.c0",
+        "Z2004.c0",
+        "Z2115.c0",
+        "Z2117.c0",
+        "Z2306.c0"
+    ],
+    "D": [
+        "Z1722.i1"
+    ],
+    "L": [
+        "Z0506.i0",
+        "Z2401.i0",
+        "Z2402.l0",
+        "Z2402.l1",
+        "Z2402.l2"
+    ],
+    "S": [
+        "SHOPHAND.o0",
+        "SHOPHAND.o1",
+        "SHOPHAND.o10",
+        "SHOPHAND.o11",
+        "SHOPHAND.o2",
+        "SHOPHAND.o3",
+        "SHOPHAND.o4",
+        "SHOPHAND.o5",
+        "SHOPHAND.o6",
+        "SHOPHAND.o7",
+        "SHOPHAND.o8",
+        "SHOPHAND.o9",
+        "SHOPITINERANT.o0",
+        "SHOPITINERANT.o1",
+        "SHOPITINERANT.o2",
+        "SHOPITINERANT.o3",
+        "SHOPITINERANT.o4",
+        "SHOPITINERANT.o5",
+        "SHOPITINERANT.o6",
+        "SHOPITINERANT.o7",
+        "SHOPMISSABLES.o0",
+        "SHOPMISSABLES.o1",
+        "SHOPMISSABLES.o2",
+        "SHOPMISSABLES.o3",
+        "SHOPMISSABLES.o4",
+        "SHOPMISSABLES.o5",
+        "SHOPMISSABLES.o6"
+    ],
+    "V": [
+        "Z2834.l0"
+    ],
+    "W": [
+        "Z0423.l1",
+        "Z0709.l1",
+        "Z0811.w0",
+        "Z0913.l1",
+        "Z0929.w0",
+        "Z1017.w0",
+        "Z1063.w0",
+        "Z1205.w0",
+        "Z2310.w0",
+        "Z2804.w0",
+        "Z2814.w0"
+    ]
+}
