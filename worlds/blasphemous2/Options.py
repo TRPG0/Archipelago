@@ -33,6 +33,12 @@ class StartingWeapon(Choice):
     option_mea_culpa = 3
     default = "random"
 
+    @classmethod
+    def get_option_name(cls, value: int) -> str:
+        if value == 2:
+            return "Sarmiento & Centella"
+        return super().get_option_name(value)
+
 
 class ExcludeLongQuests(Toggle):
     """
