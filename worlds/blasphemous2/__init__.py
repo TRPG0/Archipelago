@@ -127,9 +127,7 @@ class Blasphemous2World(World):
 
 
     def fill_slot_data(self) -> Dict[str, Any]:
-        randomizerSettings = {
-            "Seed": self.multiworld.seed,
-
+        settings = {
             "LogicType": self.options.logic_type.value,
             "RequiredKeys": self.options.required_keys.value,
             "StartingWeapon": self.options.starting_weapon.value,
@@ -139,8 +137,9 @@ class Blasphemous2World(World):
         }
 
         slot_data = {
-            "settings": randomizerSettings,
-            "locations": [{"internal": location, "ap": index} for index, location in enumerate(location_names)]
+            "worldVersion": "0.0.1",
+            "settings": settings,
+            "locations": [{"i": location, "s": index+1} for index, location in enumerate(location_names)]
         }
 
         return slot_data
