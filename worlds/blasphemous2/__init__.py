@@ -1,3 +1,4 @@
+import json
 from typing import Dict, Any, List
 from BaseClasses import Tutorial, Item, Location, Region, ItemClassification
 from worlds.AutoWorld import World, WebWorld
@@ -138,11 +139,20 @@ class Blasphemous2World(World):
 
         slot_data = {
             "worldVersion": "0.0.1",
-            "settings": settings,
-            "locations": [{"i": location, "s": index+1} for index, location in enumerate(location_names)]
+            "settings": settings
         }
 
+        #self.export_item_location_maps()
+
         return slot_data
+    
+
+    def export_item_location_maps(self) -> None:
+        with open("itemids.json", "w") as file_items:
+            file_items.write(json.dumps([{"i": item.string_id, "s": index+1} for index, item in enumerate(item_list)], indent=4))
+
+        with open("locationids.json", "w") as file_locations:
+            file_locations.write(json.dumps([{"i": location, "s": index+1} for index, location in enumerate(location_names)], indent=4))
 
 
 class Blasphemous2Item(Item):
