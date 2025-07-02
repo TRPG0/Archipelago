@@ -22,6 +22,17 @@ class RequiredKeys(Range):
     default = 4
 
 
+class Ending(Choice):
+    """
+    Choose which ending is required to complete the game.
+    """
+    display_name = "Ending"
+    option_any_ending = 0
+    option_ending_a = 1
+    option_ending_c = 2
+    default = 0
+
+
 class StartingWeapon(Choice):
     """
     Choose which weapon to start with.
@@ -58,6 +69,7 @@ class ExcludeShops(DefaultOnToggle):
 class Blasphemous2Options(PerGameCommonOptions):
     logic_type: LogicType
     required_keys: RequiredKeys
+    ending: Ending
     starting_weapon: StartingWeapon
     exclude_long_quests: ExcludeLongQuests
     exclude_shops: ExcludeShops
@@ -66,6 +78,7 @@ class Blasphemous2Options(PerGameCommonOptions):
 blas2_option_presets: Dict[str, Dict[str, Any]] = {
     "Quick":    {"logic_type": 1,
                  "required_keys": 1,
+                 "ending": 0,
                  "starting_weapon": 0,
                  "exclude_long_quests": True,
                  "exclude_shops": True}

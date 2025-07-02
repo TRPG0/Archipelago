@@ -139,7 +139,8 @@ class Blasphemous2World(World):
 
         slot_data = {
             "worldVersion": "0.0.1",
-            "settings": settings
+            "settings": settings,
+            "ending": self.options.ending.value
         }
 
         #self.export_item_location_maps()
