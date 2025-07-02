@@ -119,16 +119,16 @@ class Blas2Rules:
 
     # Weapons
     def censer(self, state: CollectionState) -> bool:
-        return state.has("Veredicto", self.player)
+        return True if self.world.options.starting_weapon == "veredicto" else state.has("Veredicto", self.player)
     
     def rosary(self, state: CollectionState) -> bool:
-        return state.has("Ruego Al Alba", self.player)
+        return True if self.world.options.starting_weapon == "ruego_al_alba" else state.has("Ruego Al Alba", self.player)
     
     def rapier(self, state: CollectionState) -> bool:
-        return state.has("Sarmiento & Centella", self.player)
+        return True if self.world.options.starting_weapon == "sarmiento_and_centella" else state.has("Sarmiento & Centella", self.player)
     
     def meaculpa(self, state: CollectionState) -> bool:
-        return state.has("Mea Culpa", self.player)
+        return True if self.world.options.starting_weapon == "mea_culpa" else state.has("Mea Culpa", self.player)
     
     # Abilities
     def wallclimb(self, state: CollectionState) -> bool:

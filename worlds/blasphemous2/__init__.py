@@ -59,15 +59,6 @@ class Blasphemous2World(World):
     
 
     def generate_early(self):
-        if self.options.starting_weapon == "ruego_al_alba":
-            self.multiworld.push_precollected(self.create_item("Ruego Al Alba"))
-        elif self.options.starting_weapon == "veredicto":
-            self.multiworld.push_precollected(self.create_item("Veredicto"))
-        elif self.options.starting_weapon == "sarmiento_and_centella":
-            self.multiworld.push_precollected(self.create_item("Sarmiento & Centella"))
-        elif self.options.starting_weapon == "mea_culpa":
-            self.multiworld.push_precollected(self.create_item("Mea Culpa"))
-
         if self.options.exclude_long_quests:
             for location in location_flags["L"]:
                 self.options.exclude_locations.value.add(location)
