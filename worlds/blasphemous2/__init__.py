@@ -34,7 +34,7 @@ class Blasphemous2World(World):
     web = Blasphemous2Web()
 
     item_name_to_id = {item.name: index+1 for index, item in enumerate(item_list)}
-    location_name_to_id = {location: index+1 for index, location in enumerate(location_names.keys())}
+    location_name_to_id = {location: index+1 for index, location in enumerate(location_names.values())}
 
     item_name_groups = group_table
     options_dataclass = Blasphemous2Options
@@ -61,11 +61,11 @@ class Blasphemous2World(World):
     def generate_early(self):
         if self.options.exclude_long_quests:
             for location in location_flags["L"]:
-                self.options.exclude_locations.value.add(location)
+                self.options.exclude_locations.value.add(location_names[location])
 
         if self.options.exclude_shops:
             for location in location_flags["S"]:
-                self.options.exclude_locations.value.add(location)
+                self.options.exclude_locations.value.add(location_names[location])
 
 
     def create_items(self):
@@ -105,13 +105,13 @@ class Blasphemous2World(World):
                 if l in location_flags["C"]:
                     continue
 
-                region.add_locations({l: self.location_name_to_id[l]}, Blasphemous2Location)
+                region.add_locations({location_names[l]: self.location_name_to_id[location_names[l]]}, Blasphemous2Location)
 
         for l in extracted_locations:
             if l["name"] in location_flags["C"]:
                 continue
 
-            location = self.get_location(l["name"])
+            location = self.get_location(location_names[l["name"]])
             set_rule(location, blas2_logic.load_rule(l))
 
             if l["name"] == "Z1808.r6":
