@@ -38,7 +38,10 @@ class Blas2Rules:
             "bosskeys5": lambda state: self.bosskeys(state, 5),
 
             # Cherub quest
-            # cherubs - not used?
+            "cherubs10": lambda state: self.cherubs(state, 10),
+            "cherubs17": lambda state: self.cherubs(state, 17),
+            "cherubs29": lambda state: self.cherubs(state, 29),
+            "cherubs33": lambda state: self.cherubs(state, 33),
             "rattle": self.rattle,
 
             # Elder quest
@@ -241,15 +244,15 @@ class Blas2Rules:
     
     def shop_rooms(self, state: CollectionState, count: int) -> bool:
         if not self.wallclimb(state):
-            return count >= 0
+            return 0 >= count
         if not self.rosary(state):
-            return count >= 1
+            return 1 >= count
         if not self.doublejump(state) or not self.censer(state):
-            return count >= 2
+            return 2 >= count
         if not self.airdash(state):
-            return count >= 3
+            return 4 >= count
         if not self.ringclimb(state) or not self.rapier(state):
-            return count >= 4
+            return 5 >= count
         if not self.bosskeys(state, 5):
-            return count >= 6
-        return count >= 7
+            return 6 >= count
+        return 7 >= count

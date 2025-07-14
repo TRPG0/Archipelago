@@ -23,13 +23,14 @@ location_names: Dict[str, str] = {
     "SHOPITINERANT.o5": "SHOPITINERANT.o5 Purchase item #6",
     "SHOPITINERANT.o6": "SHOPITINERANT.o6 Purchase item #7",
     "SHOPITINERANT.o7": "SHOPITINERANT.o7 Purchase item #8",
+    "SHOPITINERANT.o8": "SHOPITINERANT.o8 Purchase item #9",
     "SHOPMISSABLES.o0": "SHOPMISSABLES.o0 Purchase item #1",
     "SHOPMISSABLES.o1": "SHOPMISSABLES.o1 Purchase item #2",
     "SHOPMISSABLES.o2": "SHOPMISSABLES.o2 Purchase item #3",
     "SHOPMISSABLES.o3": "SHOPMISSABLES.o3 Purchase item #4",
     "SHOPMISSABLES.o4": "SHOPMISSABLES.o4 Purchase item #5",
-    "SHOPMISSABLES.o5": "SHOPMISSABLES.o5 Purchase item #6",
-    "SHOPMISSABLES.o6": "SHOPMISSABLES.o6 Purchase item #7",
+    #"SHOPMISSABLES.o5": "SHOPMISSABLES.o5 Purchase item #6",
+    #"SHOPMISSABLES.o6": "SHOPMISSABLES.o6 Purchase item #7",
 
     # Z01: Repose of the Silent One
     "Z0105.l3": "Repose of the Silent One: Z0105.l3 High ledge basin",
@@ -368,7 +369,7 @@ location_names: Dict[str, str] = {
 
     # Z28: Santa Vigilia
     "Z2801.l9": "Santa Vigilia: Z2801.l9 Gated lump",
-    "Z2804.i8": "Santa Vigilia: Z2804.i8 Will be removed soon",
+    #"Z2804.i8": "Santa Vigilia: Z2804.i8 Will be removed soon",
     "Z2804.r0": "Santa Vigilia: Z2804.r0 Brother Asterión reward #1",
     "Z2804.w0": "Santa Vigilia: Z2804.w0 Brother Asterión reward #2",
     "Z2814.w0": "Santa Vigilia: Z2814.w0 Mea Culpa statue",

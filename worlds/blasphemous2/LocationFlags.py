@@ -94,15 +94,15 @@ location_flags: Dict[str, List[str]] = {
         "SHOPITINERANT.o5",
         "SHOPITINERANT.o6",
         "SHOPITINERANT.o7",
+        "SHOPITINERANT.o8",
         "SHOPMISSABLES.o0",
         "SHOPMISSABLES.o1",
         "SHOPMISSABLES.o2",
         "SHOPMISSABLES.o3",
-        "SHOPMISSABLES.o4",
-        "SHOPMISSABLES.o5",
-        "SHOPMISSABLES.o6"
+        "SHOPMISSABLES.o4"
     ],
     "V": [
+        "Z1064.i0",
         "Z2834.l0"
     ],
     "W": [

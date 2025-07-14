@@ -49,20 +49,47 @@ class StartingWeapon(Choice):
         if value == 2:
             return "Sarmiento & Centella"
         return super().get_option_name(value)
+    
+
+class ShopMultiplier(Choice):
+    """
+    Choose how expensive shop items will be.
+    """
+    display_name = "Shop Costs"
+    option_free = 0
+    option_cheap = 1
+    option_standard = 2
+    option_expensive = 3
+    option_vanilla = 4
+    default = 2
 
 
-class ExcludeLongQuests(Toggle):
+class AddPenitenceRewards(DefaultOnToggle):
     """
-    Automatically exclude locations from quests that take a long time to complete.
+    Choose if the rewards for completing True Torment Penitences should be in the item pool.
     """
-    display_name = "Exclude Long Quests"
+    display_name = "Add Penitence Rewards"
 
 
-class ExcludeShops(DefaultOnToggle):
+class ShuffleCherubs(DefaultOnToggle):
     """
-    Automatically exclude locations in shops.
+    Choose if cherubs should be shuffled or in their default locations.
     """
-    display_name = "Exclude Shops"
+    display_name = "Shuffle Cherubs"
+
+
+#class ExcludeLongQuests(Toggle):
+#    """
+#    Automatically exclude locations from quests that take a long time to complete.
+#    """
+#    display_name = "Exclude Long Quests"
+
+
+#class ExcludeShops(DefaultOnToggle):
+#    """
+#    Automatically exclude locations in shops.
+#    """
+#    display_name = "Exclude Shops"
 
 
 @dataclass
@@ -71,8 +98,11 @@ class Blasphemous2Options(PerGameCommonOptions):
     required_keys: RequiredKeys
     ending: Ending
     starting_weapon: StartingWeapon
-    exclude_long_quests: ExcludeLongQuests
-    exclude_shops: ExcludeShops
+    shop_multiplier: ShopMultiplier
+    add_penitence_rewards: AddPenitenceRewards
+    shuffle_cherubs: ShuffleCherubs
+    #exclude_long_quests: ExcludeLongQuests
+    #exclude_shops: ExcludeShops
 
 
 blas2_option_presets: Dict[str, Dict[str, Any]] = {
@@ -80,6 +110,7 @@ blas2_option_presets: Dict[str, Dict[str, Any]] = {
                  "required_keys": 1,
                  "ending": 0,
                  "starting_weapon": 0,
-                 "exclude_long_quests": True,
-                 "exclude_shops": True}
+                 "shop_multiplier": 1,
+                 "add_penitence_rewards": True,
+                 "shuffle_cherubs": False}
 }

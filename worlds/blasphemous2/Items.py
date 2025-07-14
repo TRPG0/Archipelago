@@ -65,18 +65,18 @@ item_list: List[Blas2Item] = [
     Blas2Item("Jabera to the Poison of Jealousy", IC.useful, "PR14"),
     Blas2Item("Seguiriya to the Memory of your Eyes", IC.useful, "PR15"),
     Blas2Item("Tiento to your Thorned Hairs", IC.useful, "PR16"),
-    Blas2Item("Mirabras of the Return to Port", IC.useful, "PR17"),
+    Blas2Item("Mirabras of the Return to Port", IC.filler, "PR17"),
     Blas2Item("Peteneras to the Burial of the Lights", IC.useful, "PR18"),
 
     # Prayers (DLC)
-    Blas2Item("Prayer of the Penitent One", IC.useful, "PR101"),
+    Blas2Item("Prayer of the Penitent One", IC.progression, "PR101", 0),
     Blas2Item("Carcelera of Tender Relief", IC.useful, "PR102"),
-    Blas2Item("Soleá of Excommunication", IC.useful, "PR103", 0),
+    Blas2Item("Soleá of Excommunication", IC.useful, "PR103"),
     Blas2Item("Cante Jondo of the Polluted Heart", IC.useful, "PR104"),
     Blas2Item("Praviana of the Golden Dawn", IC.useful, "PR105"),
     Blas2Item("Cabal of the Deep Wound", IC.useful, "PR106"),
     Blas2Item("Rondeña to the Unyielding Pledge", IC.useful, "PR107"),
-    Blas2Item("Bleeding Chalice", IC.useful, "PR108", 0),
+    Blas2Item("Bleeding Chalice", IC.useful, "PR108"),
     Blas2Item("Temple of the Three Winds", IC.useful, "PR109"),
 
     # Figurines
@@ -117,18 +117,18 @@ item_list: List[Blas2Item] = [
     Blas2Item("Cobijada Mayor", IC.filler, "FG45"),
 
     # Figurines (DLC)
-    Blas2Item("The Oblivion", IC.filler, "FG101", 0),
+    Blas2Item("The Oblivion", IC.filler, "FG101"),
     Blas2Item("The Mercy", IC.filler, "FG102"),
     Blas2Item("The Sisters", IC.filler, "FG103"),
     Blas2Item("The Beatified", IC.filler, "FG104"), 
-    Blas2Item("The Mournful", IC.filler, "FG105", 0),
-    Blas2Item("The Executed", IC.filler, "FG106", 0),
+    Blas2Item("The Mournful", IC.filler, "FG105"),
+    Blas2Item("The Executed", IC.filler, "FG106"),
     Blas2Item("The Family", IC.filler, "FG107"),
     Blas2Item("The Prisoner", IC.filler, "FG108"),
     Blas2Item("The Dance", IC.filler, "FG109"),
     Blas2Item("The Thief", IC.filler, "FG110"),
-    Blas2Item("The Crying", IC.filler, "FG111", 0),
-    Blas2Item("The Liberated", IC.filler, "FG112"),
+    Blas2Item("The Crying", IC.filler, "FG111"),
+    Blas2Item("The Liberated", IC.progression, "FG112"),
     Blas2Item("The Aide", IC.filler, "FG113"),
 
     # Quest Items
@@ -170,7 +170,7 @@ item_list: List[Blas2Item] = [
     Blas2Item("Key of the Council", IC.progression, "QI66"),
     Blas2Item("Mirrored Key", IC.progression, "QI67"),
     Blas2Item("Holy Oil of Everlasting Anointment", IC.progression, "QI68"),
-    Blas2Item("Incense of the Envoys", IC.filler, "QI69"),
+    Blas2Item("Incense of the Envoys", IC.filler, "QI69", 0),
     Blas2Item("Steely Battle Lance", IC.useful, "QI70", 0),
     Blas2Item("Remembrance of Crisanta", IC.filler, "QI71"),
 
@@ -197,20 +197,23 @@ item_list: List[Blas2Item] = [
     Blas2Item("Broken Step", IC.progression, "GlassWalk"),
 
     # Miscellaneous
-    Blas2Item("Cherub", IC.progression, "Cherub", 0),
+    Blas2Item("Cherub", IC.progression, "Cherub", 33),
     Blas2Item("Marks of Martyrdom (5)", IC.useful, "Marks[5]", 2),
     Blas2Item("Marks of Martyrdom (4)", IC.useful, "Marks[4]", 3),
     Blas2Item("Marks of Martyrdom (3)", IC.useful, "Marks[3]", 4),
     Blas2Item("Marks of Martyrdom (2)", IC.useful, "Marks[2]", 3),
     Blas2Item("Marks of Martyrdom (1)", IC.useful, "Marks[1]", 35),
     Blas2Item("Mark of the Preceptor", IC.useful, "PreMarks[1]", 14), # (DLC)
-    Blas2Item("Tears of Atonement (5000)", IC.filler, "Tears[5000]", 5),
+    Blas2Item("Tears of Atonement (10000)", IC.filler, "Tears[10000]", 1),
+    Blas2Item("Tears of Atonement (5000)", IC.filler, "Tears[5000]", 7),
     Blas2Item("Tears of Atonement (3500)", IC.filler, "Tears[3500]", 3),
     Blas2Item("Tears of Atonement (2000)", IC.filler, "Tears[2000]", 5),
     Blas2Item("Tears of Atonement (1800)", IC.filler, "Tears[1800]", 2),
     Blas2Item("Tears of Atonement (1200)", IC.filler, "Tears[1200]", 3),
-    Blas2Item("Tears of Atonement (800)", IC.filler, "Tears[800]", 19) # 8 
+    Blas2Item("Tears of Atonement (1000)", IC.filler, "Tears[1000]", 1),
+    Blas2Item("Tears of Atonement (800)", IC.filler, "Tears[800]", 8) 
 ]
+
 
 filler_list: List[str] = [
     "Tears of Atonement (5000)",
@@ -220,6 +223,13 @@ filler_list: List[str] = [
     "Tears of Atonement (1200)",
     "Tears of Atonement (800)"
 ]
+
+
+locked_items: Dict[str, str] = {
+    "Z1064.i0": "Incense of the Envoys",
+    "Z2834.l0": "Prayer of the Penitent One"
+}
+
 
 group_table: Dict[str, Set[str]] = {
     "bosskeys": {"Key of the Pilgrim",
@@ -232,5 +242,12 @@ group_table: Dict[str, Set[str]] = {
               "Immaculate Mother-of-Pearl Gouge",
               "Oils of the Blessed Mixture",
               "Silver Shell File",
-              "Sculptor's Resonant Gavel"}
+              "Sculptor's Resonant Gavel"},
+
+    "penitence": {"Soleá of Excommunication",
+                  "Bleeding Chalice",
+                  "The Oblivion",
+                  "The Mournful",
+                  "The Executed",
+                  "The Crying"}
 }

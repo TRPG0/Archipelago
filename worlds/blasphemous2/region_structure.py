@@ -25,13 +25,12 @@ regions = [
             "SHOPITINERANT.o5",
             "SHOPITINERANT.o6",
             "SHOPITINERANT.o7",
+            "SHOPITINERANT.o8",
             "SHOPMISSABLES.o0",
             "SHOPMISSABLES.o1",
             "SHOPMISSABLES.o2",
             "SHOPMISSABLES.o3",
             "SHOPMISSABLES.o4",
-            "SHOPMISSABLES.o5",
-            "SHOPMISSABLES.o6",
             "Z0105.l3",
             "Z0106.r8",
             "Z0108.l2",
@@ -320,7 +319,6 @@ regions = [
             "Z2744.l21",
             "Z2746.i0",
             "Z2801.l9",
-            "Z2804.i8",
             "Z2804.r0",
             "Z2804.w0",
             "Z2814.w0",
@@ -622,6 +620,31 @@ locations = [
         "is_event": False
     },
     {
+        "name": "SHOPITINERANT.o8",
+        "logic": [
+            {
+                "item_requirements": [
+                    "shoprooms7",
+                    "wallclimb",
+                    "doublejump",
+                    "airdash",
+                    "ringclimb",
+                    "glasswalk",
+                    "censer",
+                    "rapier",
+                    "rosary",
+                    "meaculpa",
+                    "mudkey",
+                    "ceramickey"
+                ],
+                "location_requirements": [],
+                "region_requirements": [],
+                "state_modifiers": []
+            }
+        ],
+        "is_event": False
+    },
+    {
         "name": "SHOPMISSABLES.o0",
         "logic": [
             {
@@ -692,51 +715,7 @@ locations = [
                 "item_requirements": [
                     "censer",
                     "rapier",
-                    "rosary",
-                    "wallclimb",
-                    "doublejump",
-                    "airdash",
-                    "ringclimb"
-                ],
-                "location_requirements": [],
-                "region_requirements": [],
-                "state_modifiers": []
-            }
-        ],
-        "is_event": False
-    },
-    {
-        "name": "SHOPMISSABLES.o5",
-        "logic": [
-            {
-                "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
-                    "wallclimb",
-                    "doublejump",
-                    "airdash",
-                    "ringclimb"
-                ],
-                "location_requirements": [],
-                "region_requirements": [],
-                "state_modifiers": []
-            }
-        ],
-        "is_event": False
-    },
-    {
-        "name": "SHOPMISSABLES.o6",
-        "logic": [
-            {
-                "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
-                    "wallclimb",
-                    "doublejump",
-                    "airdash",
-                    "ringclimb"
+                    "doublejump"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5189,13 +5168,9 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
+                    "cherubs33",
                     "wallclimb",
-                    "doublejump",
-                    "airdash",
-                    "ringclimb"
+                    "rattle"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5209,9 +5184,7 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
+                    "cherubs10",
                     "wallclimb"
                 ],
                 "location_requirements": [],
@@ -5226,13 +5199,8 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
-                    "wallclimb",
-                    "doublejump",
-                    "airdash",
-                    "ringclimb"
+                    "cherubs17",
+                    "wallclimb"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5246,13 +5214,10 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
+                    "cherubs29",
                     "wallclimb",
                     "doublejump",
-                    "airdash",
-                    "ringclimb"
+                    "airdash"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5266,9 +5231,7 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
+                    "cherubs33",
                     "wallclimb",
                     "doublejump",
                     "airdash",
@@ -5286,9 +5249,7 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
+                    "cherubs33",
                     "wallclimb",
                     "doublejump",
                     "airdash",
@@ -5306,9 +5267,7 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
-                    "censer",
-                    "rapier",
-                    "rosary",
+                    "cherubs33",
                     "wallclimb",
                     "doublejump",
                     "airdash",
@@ -5755,30 +5714,6 @@ locations = [
     },
     {
         "name": "Z2801.l9",
-        "logic": [
-            {
-                "item_requirements": [
-                    "wallclimb",
-                    "doublejump",
-                    "airdash",
-                    "ringclimb",
-                    "glasswalk",
-                    "censer",
-                    "rapier",
-                    "rosary",
-                    "meaculpa",
-                    "mudkey",
-                    "ceramickey"
-                ],
-                "location_requirements": [],
-                "region_requirements": [],
-                "state_modifiers": []
-            }
-        ],
-        "is_event": False
-    },
-    {
-        "name": "Z2804.i8",
         "logic": [
             {
                 "item_requirements": [
