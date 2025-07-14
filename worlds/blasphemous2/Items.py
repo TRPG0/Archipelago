@@ -170,7 +170,7 @@ item_list: List[Blas2Item] = [
     Blas2Item("Key of the Council", IC.progression, "QI66"),
     Blas2Item("Mirrored Key", IC.progression, "QI67"),
     Blas2Item("Holy Oil of Everlasting Anointment", IC.progression, "QI68"),
-    Blas2Item("Incense of the Envoys", IC.filler, "QI69", 0),
+    Blas2Item("Incense of the Envoys", IC.progression, "QI69", 0),
     Blas2Item("Steely Battle Lance", IC.useful, "QI70", 0),
     Blas2Item("Remembrance of Crisanta", IC.filler, "QI71"),
 
