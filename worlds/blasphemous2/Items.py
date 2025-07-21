@@ -197,30 +197,32 @@ item_list: List[Blas2Item] = [
     Blas2Item("Broken Step", IC.progression, "GlassWalk"),
 
     # Miscellaneous
-    Blas2Item("Cherub", IC.progression, "Cherub", 33),
-    Blas2Item("Marks of Martyrdom (5)", IC.useful, "Marks[5]", 2),
-    Blas2Item("Marks of Martyrdom (4)", IC.useful, "Marks[4]", 3),
-    Blas2Item("Marks of Martyrdom (3)", IC.useful, "Marks[3]", 4),
-    Blas2Item("Marks of Martyrdom (2)", IC.useful, "Marks[2]", 3),
-    Blas2Item("Marks of Martyrdom (1)", IC.useful, "Marks[1]", 35),
-    Blas2Item("Mark of the Preceptor", IC.useful, "PreMarks[1]", 14), # (DLC)
-    Blas2Item("Tears of Atonement (10000)", IC.filler, "Tears[10000]", 1),
-    Blas2Item("Tears of Atonement (5000)", IC.filler, "Tears[5000]", 7),
-    Blas2Item("Tears of Atonement (3500)", IC.filler, "Tears[3500]", 3),
-    Blas2Item("Tears of Atonement (2000)", IC.filler, "Tears[2000]", 5),
-    Blas2Item("Tears of Atonement (1800)", IC.filler, "Tears[1800]", 2),
-    Blas2Item("Tears of Atonement (1200)", IC.filler, "Tears[1200]", 3),
-    Blas2Item("Tears of Atonement (1000)", IC.filler, "Tears[1000]", 1),
-    Blas2Item("Tears of Atonement (800)", IC.filler, "Tears[800]", 8) 
+    Blas2Item("Cherub", IC.progression, "CH", 33),
+    Blas2Item("Marks of Martyrdom (5)", IC.useful, "MM|5", 2),
+    Blas2Item("Marks of Martyrdom (4)", IC.useful, "MM|4", 3),
+    Blas2Item("Marks of Martyrdom (3)", IC.useful, "MM|3", 4),
+    Blas2Item("Marks of Martyrdom (2)", IC.useful, "MM|2", 3),
+    Blas2Item("Marks of Martyrdom (1)", IC.useful, "MM|1", 35),
+    Blas2Item("Mark of the Preceptor", IC.useful, "MP|1", 14), # (DLC)
+    Blas2Item("Tears of Atonement (10000)", IC.filler, "TA|10000", 1),
+    Blas2Item("Tears of Atonement (5000)", IC.filler, "TA|5000", 7),
+    Blas2Item("Tears of Atonement (3500)", IC.filler, "TA|3500", 3),
+    Blas2Item("Tears of Atonement (2000)", IC.filler, "TA|2000", 5),
+    Blas2Item("Tears of Atonement (1800)", IC.filler, "TA|1800", 2),
+    Blas2Item("Tears of Atonement (1200)", IC.filler, "TA|1200", 3),
+    Blas2Item("Tears of Atonement (1000)", IC.filler, "TA|1000", 1),
+    Blas2Item("Tears of Atonement (800)", IC.filler, "TA|800", 8) 
 ]
 
 
 filler_list: List[str] = [
+    "Tears of Atonement (10000)",
     "Tears of Atonement (5000)",
     "Tears of Atonement (3500)",
     "Tears of Atonement (2000)",
     "Tears of Atonement (1800)",
     "Tears of Atonement (1200)",
+    "Tears of Atonement (1000)",
     "Tears of Atonement (800)"
 ]
 

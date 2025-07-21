@@ -4365,6 +4365,7 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
+                    "wallclimb",
                     "censer"
                 ],
                 "location_requirements": [],
