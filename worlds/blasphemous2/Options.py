@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from Options import Choice, Toggle, DefaultOnToggle, Range, PerGameCommonOptions
+from Options import Choice, Toggle, DefaultOnToggle, Range, PerGameCommonOptions, Visibility
 from typing import Dict, Any
 
 
@@ -10,6 +10,7 @@ class LogicType(Choice):
     display_name = "Logic Type"
     option_normal = 0
     default = 0
+    visibility = Visibility.none
 
 
 class RequiredKeys(Range):

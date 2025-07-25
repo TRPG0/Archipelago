@@ -128,7 +128,12 @@ class Blasphemous2World(World):
             set_rule(location, blas2_logic.load_rule(l))
 
             if l["name"] == "Z1808.r6":
-                multiworld.completion_condition[self.player] = blas2_logic.load_rule(l)
+                if self.options.ending == "ending_a":
+                    multiworld.completion_condition[self.player] = lambda state: blas2_logic.load_rule(l) and state.has_all({"Cierzo", "Gregal", "Lebeche", "Jaloque"}, self.player)
+                elif self.options.ending == "ending_c":
+                    multiworld.completion_condition[self.player] = lambda state: blas2_logic.load_rule(l) and state.has_all({"Cierzo", "Gregal", "Lebeche", "Jaloque", "Mea Culpa", "Prayer of the Penitent One"}, self.player)
+                else:
+                    multiworld.completion_condition[self.player] = blas2_logic.load_rule(l)
 
 
     def fill_slot_data(self) -> Dict[str, Any]:
