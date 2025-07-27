@@ -149,7 +149,7 @@ class Blasphemous2World(World):
         }
 
         slot_data = {
-            "worldVersion": "0.0.1",
+            "worldVersion": "1.0.0",
             "settings": settings,
             "ending": self.options.ending.value
         }
