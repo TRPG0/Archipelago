@@ -3,7 +3,7 @@ from typing import Dict, Any
 from BaseClasses import Tutorial, Item, Location, Region, ItemClassification
 from worlds.AutoWorld import World, WebWorld
 from .Items import item_list, filler_list, locked_items, group_table
-from .Locations import location_names
+from .Locations import location_names, location_descriptions
 from .LocationFlags import location_flags
 from .Rules import Blas2Rules
 from worlds.generic.Rules import set_rule
@@ -22,6 +22,7 @@ class Blasphemous2Web(WebWorld):
         "setup/en",
         ["TRPG"]
     )]
+    #location_descriptions = location_descriptions
     options_presets = blas2_option_presets
 
 
@@ -37,6 +38,7 @@ class Blasphemous2World(World):
     location_name_to_id = {location: index+1 for index, location in enumerate(location_names.values())}
 
     item_name_groups = group_table
+
     options_dataclass = Blasphemous2Options
     options: Blasphemous2Options
 
@@ -149,7 +151,7 @@ class Blasphemous2World(World):
         }
 
         slot_data = {
-            "worldVersion": "1.0.0",
+            "worldVersion": "1.0.1",
             "settings": settings,
             "ending": self.options.ending.value
         }

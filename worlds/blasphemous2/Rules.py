@@ -23,8 +23,11 @@ class Blas2Rules:
         self.string_rules = {
             # Weapons
             "censer": self.censer,
+            #"censerfx": not used,
             "rosary": self.rosary,
+            "rosaryfx": self.rosaryfx,
             "rapier": self.rapier,
+            #"rapierfx": not used,
             "meaculpa": self.meaculpa,
 
             # Abilities
@@ -126,6 +129,9 @@ class Blas2Rules:
     
     def rosary(self, state: CollectionState) -> bool:
         return True if self.world.options.starting_weapon == "ruego_al_alba" else state.has("Ruego Al Alba", self.player)
+    
+    def rosaryfx(self, state: CollectionState) -> bool:
+        return True if self.world.options.starting_weapon == "ruego_al_alba" or self.world.options.starting_weapon == "mea_culpa" else state.has_any({"Ruego Al Alba", "Mea Culpa"}, self.player)
     
     def rapier(self, state: CollectionState) -> bool:
         return True if self.world.options.starting_weapon == "sarmiento_and_centella" else state.has("Sarmiento & Centella", self.player)

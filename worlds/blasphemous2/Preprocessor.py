@@ -286,7 +286,7 @@ def main(args: argparse.Namespace):
         locations = load_resource_local("item-locations.json")
 
     else:
-        locations = load_resource_from_web("https://raw.githubusercontent.com/BrandenEK/BlasII.Randomizer/refs/heads/main/resources/data/Randomizer/item-locations.json")
+        locations = load_resource_from_web("https://raw.githubusercontent.com/BrandenEK/BlasII.Randomizer/refs/heads/main/resources/data/Randomizer/itemlocations.json")
 
     output: Dict[str, Any] = {}
     logic_objects: List[Dict[str, Any]] = []

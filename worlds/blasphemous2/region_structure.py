@@ -632,7 +632,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -650,6 +650,7 @@ locations = [
             {
                 "item_requirements": [
                     "censer",
+                    "rosaryfx",
                     "rapier",
                     "doublejump"
                 ],
@@ -666,6 +667,7 @@ locations = [
             {
                 "item_requirements": [
                     "censer",
+                    "rosaryfx",
                     "rapier",
                     "doublejump"
                 ],
@@ -682,6 +684,7 @@ locations = [
             {
                 "item_requirements": [
                     "censer",
+                    "rosaryfx",
                     "rapier",
                     "doublejump"
                 ],
@@ -698,6 +701,7 @@ locations = [
             {
                 "item_requirements": [
                     "censer",
+                    "rosaryfx",
                     "rapier",
                     "doublejump"
                 ],
@@ -714,6 +718,7 @@ locations = [
             {
                 "item_requirements": [
                     "censer",
+                    "rosaryfx",
                     "rapier",
                     "doublejump"
                 ],
@@ -811,7 +816,7 @@ locations = [
             {
                 "item_requirements": [
                     "doublejump",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -826,7 +831,7 @@ locations = [
             {
                 "item_requirements": [
                     "doublejump",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -986,7 +991,7 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "censer",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -1252,7 +1257,7 @@ locations = [
             },
             {
                 "item_requirements": [
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -1326,7 +1331,7 @@ locations = [
                     "wallclimb",
                     "rapier",
                     "doublejump",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -1490,7 +1495,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "censer",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "tributes3"
                 ],
@@ -1644,7 +1649,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "ringclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -1659,7 +1664,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary",
+                    "rosaryfx",
                     "doublejump"
                 ],
                 "location_requirements": [],
@@ -1669,7 +1674,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary",
+                    "rosaryfx",
                     "airdash"
                 ],
                 "location_requirements": [],
@@ -1701,7 +1706,7 @@ locations = [
                 "item_requirements": [
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "doublejump"
                 ],
                 "location_requirements": [],
@@ -1746,7 +1751,7 @@ locations = [
                 "item_requirements": [
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "doublejump",
                     "ringclimb"
                 ],
@@ -1802,7 +1807,7 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "censer",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -1820,7 +1825,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "censer",
-                    "rosary",
+                    "rosaryfx",
                     "rapier"
                 ],
                 "location_requirements": [],
@@ -1896,7 +1901,7 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -1974,7 +1979,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2109,6 +2114,8 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
+                    "glasswalk",
+                    "rosaryfx",
                     "rapier"
                 ],
                 "location_requirements": [],
@@ -2377,7 +2384,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary",
+                    "rosaryfx",
                     "ringclimb",
                     "doublejump"
                 ],
@@ -2394,7 +2401,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2439,7 +2446,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier"
                 ],
@@ -2456,7 +2463,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2471,7 +2478,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary",
+                    "rosaryfx",
                     "rapier"
                 ],
                 "location_requirements": [],
@@ -2501,7 +2508,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2516,7 +2523,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2546,7 +2553,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary",
+                    "rosaryfx",
                     "doublejump",
                     "rapier"
                 ],
@@ -2563,7 +2570,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2578,7 +2585,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2593,7 +2600,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "rosary",
+                    "rosaryfx",
                     "doublejump",
                     "airdash"
                 ],
@@ -2630,7 +2637,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2648,7 +2655,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2683,7 +2690,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2703,7 +2710,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2721,7 +2728,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2741,7 +2748,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2759,7 +2766,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2778,7 +2785,7 @@ locations = [
                     "airdash",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2797,7 +2804,7 @@ locations = [
                     "airdash",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2817,7 +2824,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2835,7 +2842,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2887,7 +2894,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2906,7 +2913,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2927,7 +2934,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -2968,7 +2975,7 @@ locations = [
                     "airdash",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -2985,7 +2992,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3002,7 +3009,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier"
                 ],
                 "location_requirements": [],
@@ -3020,7 +3027,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "censer"
                 ],
@@ -3039,7 +3046,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "censer"
                 ],
@@ -3058,7 +3065,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "censer"
                 ],
@@ -3077,7 +3084,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "censer"
                 ],
@@ -3244,7 +3251,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier"
                 ],
@@ -3264,7 +3271,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier"
                 ],
@@ -3284,7 +3291,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3302,7 +3309,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier"
                 ],
@@ -3339,7 +3346,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer"
                 ],
                 "location_requirements": [],
@@ -3375,7 +3382,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier"
                 ],
@@ -3395,7 +3402,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier",
                     "letter1"
@@ -3416,7 +3423,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier",
                     "holyoil"
@@ -3437,7 +3444,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier",
                     "holyoil"
@@ -3458,7 +3465,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier",
                     "holyoil"
@@ -3496,7 +3503,7 @@ locations = [
                     "doublejump",
                     "airdash",
                     "ringclimb",
-                    "rosary",
+                    "rosaryfx",
                     "censer",
                     "rapier"
                 ],
@@ -3543,7 +3550,7 @@ locations = [
                     "wallclimb",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "doublejump"
                 ],
                 "location_requirements": [],
@@ -3676,7 +3683,7 @@ locations = [
                     "wallclimb",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3828,7 +3835,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -3848,7 +3855,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3865,7 +3872,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3882,7 +3889,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "ringclimb"
                 ],
@@ -3901,7 +3908,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "ringclimb"
                 ],
@@ -3920,7 +3927,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier"
                 ],
                 "location_requirements": [],
@@ -3938,7 +3945,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier"
                 ],
                 "location_requirements": [],
@@ -3956,7 +3963,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "ringclimb",
                     "waxseeds6"
@@ -4007,7 +4014,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "ringclimb"
                 ],
@@ -4026,7 +4033,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "ringclimb"
                 ],
@@ -4045,7 +4052,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier"
                 ],
                 "location_requirements": [],
@@ -4063,7 +4070,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "rapier",
                     "ringclimb"
                 ],
@@ -4201,7 +4208,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "bosskeys5"
                 ],
                 "location_requirements": [],
@@ -4222,7 +4229,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "bosskeys5"
                 ],
                 "location_requirements": [],
@@ -4243,7 +4250,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "bosskeys5"
                 ],
                 "location_requirements": [],
@@ -4264,7 +4271,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "bosskeys5"
                 ],
                 "location_requirements": [],
@@ -4285,7 +4292,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "bosskeys5"
                 ],
                 "location_requirements": [],
@@ -4306,7 +4313,7 @@ locations = [
                     "ringclimb",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "bosskeys5"
                 ],
                 "location_requirements": [],
@@ -4615,7 +4622,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "censer"
                 ],
                 "location_requirements": [],
@@ -4633,7 +4640,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4650,7 +4657,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4667,7 +4674,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4684,7 +4691,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "ringclimb"
                 ],
                 "location_requirements": [],
@@ -4702,7 +4709,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4719,7 +4726,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4736,7 +4743,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary",
+                    "rosaryfx",
                     "regulacloth"
                 ],
                 "location_requirements": [],
@@ -4754,7 +4761,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4771,7 +4778,7 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4954,7 +4961,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4972,7 +4979,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "goldlumps10"
                 ],
                 "location_requirements": [],
@@ -4991,7 +4998,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "goldlumps20"
                 ],
                 "location_requirements": [],
@@ -5026,7 +5033,7 @@ locations = [
                 "item_requirements": [
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5043,7 +5050,7 @@ locations = [
                     "wallclimb",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5061,7 +5068,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5078,7 +5085,7 @@ locations = [
                     "wallclimb",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5096,7 +5103,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5114,7 +5121,7 @@ locations = [
                     "doublejump",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5133,7 +5140,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa"
                 ],
                 "location_requirements": [],
@@ -5155,7 +5162,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary"
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5293,7 +5300,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5317,7 +5324,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5341,7 +5348,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5365,7 +5372,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5389,7 +5396,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5413,7 +5420,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5437,7 +5444,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5461,7 +5468,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5485,7 +5492,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5509,7 +5516,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5533,7 +5540,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5557,7 +5564,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5581,7 +5588,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5605,7 +5612,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5629,7 +5636,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5653,7 +5660,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5677,7 +5684,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5701,7 +5708,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5725,7 +5732,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5749,7 +5756,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5773,7 +5780,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5797,7 +5804,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5821,7 +5828,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5845,7 +5852,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5869,7 +5876,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5893,7 +5900,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5917,7 +5924,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5941,7 +5948,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5965,7 +5972,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -5989,7 +5996,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -6013,7 +6020,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -6037,7 +6044,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -6061,7 +6068,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"
@@ -6085,7 +6092,7 @@ locations = [
                     "glasswalk",
                     "censer",
                     "rapier",
-                    "rosary",
+                    "rosaryfx",
                     "meaculpa",
                     "mudkey",
                     "ceramickey"

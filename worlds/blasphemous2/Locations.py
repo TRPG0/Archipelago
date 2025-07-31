@@ -386,3 +386,11 @@ location_names: Dict[str, str] = {
     "Z2835.i0": "Santa Vigilia: Z2835.i0 Mud woman reward",
     "Z2835.l12": "Santa Vigilia: Z2835.l12 Thorn ledge basin",
 }
+
+location_descriptions: Dict[str, str] = {
+    "Two Moons: Z1326.i0 Cursed letter #1": "Kneel in front of the large mirror",
+    "City of the Blessed Name: Z0502.i1 Cursed letter #2": "Stand at the left edge of the chasm that leads to Profundo Lamento",
+    "Mother of Mothers: Z1427.l0 Cursed letter #3": "Strike the broken bell against the right wall",
+    "City of the Blessed Name: Z0503.i9 Cursed letter #4": "Walk back and forth in front of the shop entrance",
+    "Profundo Lamento: Z1917.i0 Cursed letter #5": "Jump off the cliff",
+}
