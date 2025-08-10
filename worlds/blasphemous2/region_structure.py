@@ -1208,7 +1208,8 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "censer"
+                    "censer",
+                    "airdash"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -1217,14 +1218,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "doublejump"
-                ],
-                "location_requirements": [],
-                "region_requirements": [],
-                "state_modifiers": []
-            },
-            {
-                "item_requirements": [
+                    "doublejump",
                     "airdash"
                 ],
                 "location_requirements": [],
@@ -1240,7 +1234,8 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "censer"
+                    "censer",
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -1249,14 +1244,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "doublejump"
-                ],
-                "location_requirements": [],
-                "region_requirements": [],
-                "state_modifiers": []
-            },
-            {
-                "item_requirements": [
+                    "doublejump",
                     "rosaryfx"
                 ],
                 "location_requirements": [],
@@ -5014,7 +5002,10 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "doublejump"
+                    "doublejump",
+                    "censer",
+                    "rapier",
+                    "rosaryfx"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -5023,14 +5014,7 @@ locations = [
             {
                 "item_requirements": [
                     "wallclimb",
-                    "airdash"
-                ],
-                "location_requirements": [],
-                "region_requirements": [],
-                "state_modifiers": []
-            },
-            {
-                "item_requirements": [
+                    "airdash",
                     "censer",
                     "rapier",
                     "rosaryfx"

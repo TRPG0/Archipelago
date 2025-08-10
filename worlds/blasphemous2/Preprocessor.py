@@ -98,7 +98,7 @@ def build_logic_conditions(logic: str) -> List[List[str]]:
     parens_conditions: List[List[List[str]]] = []
 
     for index, part in enumerate(parts):
-        #print(current_index, index, parens, part)
+        #print(str(current_index).ljust(2), str(index).ljust(2), str(parens).ljust(2), part)
 
         # skip parts that have already been handled
         if index < current_index:
@@ -184,7 +184,7 @@ def build_logic_conditions(logic: str) -> List[List[str]]:
                         all_conditions += build_logic_subconditions(current_condition, sub_part)
                 else:
                     #print("NEXT PARTS:", parts[index+1], parts[index+2])
-                    if parts[index+1] == "&&":
+                    if parts[index+1] == "+":
                         parens_conditions.append(build_logic_subconditions(current_condition, sub_part))
                         #print("PARENS:", parens_conditions)
                     else:
@@ -346,7 +346,7 @@ def main(args: argparse.Namespace):
 
 
 if __name__ == "__main__":
-    #test = "censer + rapier + doublejump"
+    #test = "wallclimb + (doublejump | airdash) + censer + rapier + rosaryfx"
     #print(preprocess_logic(test))
     #print(build_logic_conditions(preprocess_logic(test)))
     main(parse_args())
