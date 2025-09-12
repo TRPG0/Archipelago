@@ -65,6 +65,29 @@ class ShopMultiplier(Choice):
     default = 2
 
 
+class MartyrdomXP(Choice):
+    """
+    Choose how the 40 additional Marks of Martyrdom unlocked from gaining XP will be handled.
+
+    Vanilla: Marks use the original XP system.
+    Double XP: Marks use the original XP system, but at double the rate.
+    From Items: No marks are earned from XP. The 40 marks are distributed into the item pool.
+    From Bosses: No marks are earned from XP. The 40 marks are given by defeating the eight main bosses.
+    """
+    display_name = "Martyrdom XP"
+    option_vanilla = 0
+    option_double_xp = 1
+    option_from_items = 2
+    option_from_bosses = 3
+    default = 2
+
+    @classmethod
+    def get_option_name(cls, value: int) -> str:
+        if value == 1:
+            return "Double XP"
+        return super().get_option_name(value)
+
+
 class AddPenitenceRewards(DefaultOnToggle):
     """
     Choose if the rewards for completing True Torment Penitences should be in the item pool.
@@ -100,6 +123,7 @@ class Blasphemous2Options(PerGameCommonOptions):
     ending: Ending
     starting_weapon: StartingWeapon
     shop_multiplier: ShopMultiplier
+    martyrdom_xp: MartyrdomXP
     add_penitence_rewards: AddPenitenceRewards
     shuffle_cherubs: ShuffleCherubs
     #exclude_long_quests: ExcludeLongQuests
@@ -112,6 +136,7 @@ blas2_option_presets: Dict[str, Dict[str, Any]] = {
                  "ending": 0,
                  "starting_weapon": 0,
                  "shop_multiplier": 1,
+                 "martyrdom_xp": 2,
                  "add_penitence_rewards": True,
                  "shuffle_cherubs": False}
 }

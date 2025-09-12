@@ -217,7 +217,7 @@ class Blas2Rules:
     
     # Sculptor quest
     def tools(self, state: CollectionState, count: int) -> bool:
-        return state.count_group_unique("tools", self.player) >= count
+        return state.has("Sculptor's Tool", self.player, count)
     
     # Tribute quest
     def tributes(self, state: CollectionState, count: int) -> bool:

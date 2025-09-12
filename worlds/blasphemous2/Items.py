@@ -11,6 +11,11 @@ class Blas2Item:
     count: int = 1
 
 
+@dataclass
+class Blas2Mark(Blas2Item):
+    alt_count: int = 1
+
+
 item_list: List[Blas2Item] = [
     # Rosary Beads
     Blas2Item("Vitrified Lightning Bolt", IC.filler, "RB01"),
@@ -50,33 +55,33 @@ item_list: List[Blas2Item] = [
     Blas2Item("Antique Locket", IC.filler, "RB106"),
 
     # Prayers
-    Blas2Item("Galera of the Living Briar", IC.useful, "PR01"),
-    Blas2Item("Debla of the Lights", IC.useful, "PR02"),
+    Blas2Item("Galera of the Living Briar", IC.progression, "PR01"),
+    Blas2Item("Debla of the Lights", IC.progression, "PR02"),
     Blas2Item("Chime of the Twisted One", IC.useful, "PR03"),
-    Blas2Item("Bleeding Miracle", IC.useful, "PR04"),
+    Blas2Item("Bleeding Miracle", IC.progression, "PR04"),
     Blas2Item("Taranto to my Sister", IC.useful, "PR05"),
     Blas2Item("Aubade to the Sleepless Iron", IC.useful, "PR06"),
-    Blas2Item("Liviana of the Blighted Blades", IC.useful, "PR07"),
-    Blas2Item("Martinete of Forge and Thunder", IC.useful, "PR08"),
-    Blas2Item("Rosa of the Three Stars", IC.useful, "PR09"),
-    Blas2Item("Zejel of the Cruelest Thorn", IC.useful, "PR10"),
-    Blas2Item("Serrana of the Kindled Hearth", IC.useful, "PR11"),
-    Blas2Item("Bleeding Crown", IC.useful, "PR12"),
-    Blas2Item("Jabera to the Poison of Jealousy", IC.useful, "PR14"),
+    Blas2Item("Liviana of the Blighted Blades", IC.progression, "PR07"),
+    Blas2Item("Martinete of Forge and Thunder", IC.progression, "PR08"),
+    Blas2Item("Rosa of the Three Stars", IC.progression, "PR09"),
+    Blas2Item("Zejel of the Cruelest Thorn", IC.progression, "PR10"),
+    Blas2Item("Serrana of the Kindled Hearth", IC.progression, "PR11"),
+    Blas2Item("Bleeding Crown", IC.progression, "PR12"),
+    Blas2Item("Jabera to the Poison of Jealousy", IC.progression, "PR14"),
     Blas2Item("Seguiriya to the Memory of your Eyes", IC.useful, "PR15"),
     Blas2Item("Tiento to your Thorned Hairs", IC.useful, "PR16"),
-    Blas2Item("Mirabras of the Return to Port", IC.filler, "PR17"),
+    Blas2Item("Mirabras of the Return to Port", IC.progression, "PR17"),
     Blas2Item("Peteneras to the Burial of the Lights", IC.useful, "PR18"),
 
     # Prayers (DLC)
     Blas2Item("Prayer of the Penitent One", IC.progression, "PR101", 0),
-    Blas2Item("Carcelera of Tender Relief", IC.useful, "PR102"),
+    Blas2Item("Carcelera of Tender Relief", IC.progression, "PR102"),
     Blas2Item("Soleá of Excommunication", IC.useful, "PR103"),
-    Blas2Item("Cante Jondo of the Polluted Heart", IC.useful, "PR104"),
-    Blas2Item("Praviana of the Golden Dawn", IC.useful, "PR105"),
-    Blas2Item("Cabal of the Deep Wound", IC.useful, "PR106"),
-    Blas2Item("Rondeña to the Unyielding Pledge", IC.useful, "PR107"),
-    Blas2Item("Bleeding Chalice", IC.useful, "PR108"),
+    Blas2Item("Cante Jondo of the Polluted Heart", IC.progression, "PR104"),
+    Blas2Item("Praviana of the Golden Dawn", IC.progression, "PR105"),
+    Blas2Item("Cabal of the Deep Wound", IC.progression, "PR106"),
+    Blas2Item("Rondeña to the Unyielding Pledge", IC.progression, "PR107"),
+    Blas2Item("Bleeding Chalice", IC.progression, "PR108"),
     Blas2Item("Temple of the Three Winds", IC.useful, "PR109"),
 
     # Figurines
@@ -132,9 +137,9 @@ item_list: List[Blas2Item] = [
     Blas2Item("The Aide", IC.filler, "FG113"),
 
     # Quest Items
-    Blas2Item("Tears of Sap", IC.progression, "QI01"),
-    Blas2Item("Immaculate Mother-of-Pearl Gouge", IC.progression, "QI02"),
-    Blas2Item("Oils of the Blessed Mixture", IC.progression, "QI03"),
+    Blas2Item("Tears of Sap", IC.progression, "QI01", 0),
+    Blas2Item("Immaculate Mother-of-Pearl Gouge", IC.progression, "QI02", 0),
+    Blas2Item("Oils of the Blessed Mixture", IC.progression, "QI03", 0),
     Blas2Item("Remembrance of the Confessor", IC.filler, "QI04"),
     Blas2Item("Regula's Cloth", IC.progression, "QI05"),
     Blas2Item("Remembrance of Regula", IC.filler, "QI06"),
@@ -142,8 +147,8 @@ item_list: List[Blas2Item] = [
     Blas2Item("Cloth of the Old Woman", IC.progression, "QI08"),
     Blas2Item("Remembrace of Trifon", IC.filler, "QI09"),
     Blas2Item("Remembrace of Castula", IC.filler, "QI10"),
-    Blas2Item("Silver Shell File", IC.progression, "QI11"),
-    Blas2Item("Sculptor's Resonant Gavel", IC.progression, "QI12"),
+    Blas2Item("Silver Shell File", IC.progression, "QI11", 0),
+    Blas2Item("Sculptor's Resonant Gavel", IC.progression, "QI12", 0),
     Blas2Item("Cursed Letter, Page One", IC.progression, "QI14"),
     Blas2Item("Cursed Letter, Page Two", IC.progression, "QI16"),
     Blas2Item("Cursed Letter, Page Three", IC.progression, "QI18"),
@@ -151,10 +156,11 @@ item_list: List[Blas2Item] = [
     Blas2Item("Cursed Letter, Last Page", IC.progression, "QI22"),
     #Blas2Item("Unfinished Lullaby", IC.progression, "QI23,QI24,QI25,QI26", 0),
     #Blas2Item("Lullably of the White Shore", IC.progression, "QI27", 0),
+    Blas2Item("Sculptor's Tool", IC.progression, "ST", 5),
     Blas2Item("Piece of the Lullaby", IC.progression, "UL", 5),
     Blas2Item("Broken Key", IC.progression, "QI28"),
     Blas2Item("Forgotten Tribute", IC.progression, "QI29,QI30,QI31", 3),
-    Blas2Item("Abandoned Rosary Knot", IC.progression, "QI32,QI33,QI34,QI35", 4),
+    Blas2Item("Abandoned Rosary Knot", IC.useful, "QI32,QI33,QI34,QI35", 4),
     Blas2Item("Stolen Pendant of Solitude", IC.filler, "QI36", 0),
     Blas2Item("Fervent Kiss", IC.progression, "QI37,QI38,QI39,QI40,QI41", 5),
     Blas2Item("Ornate Chalice", IC.useful, "QI42,QI43,QI44,QI45,QI46", 5),
@@ -198,11 +204,11 @@ item_list: List[Blas2Item] = [
 
     # Miscellaneous
     Blas2Item("Cherub", IC.progression, "CH", 33),
-    Blas2Item("Marks of Martyrdom (5)", IC.useful, "MM|5", 2),
-    Blas2Item("Marks of Martyrdom (4)", IC.useful, "MM|4", 3),
-    Blas2Item("Marks of Martyrdom (3)", IC.useful, "MM|3", 4),
-    Blas2Item("Marks of Martyrdom (2)", IC.useful, "MM|2", 3),
-    Blas2Item("Marks of Martyrdom (1)", IC.useful, "MM|1", 35),
+    Blas2Mark("Marks of Martyrdom (5)", IC.useful, "MM|5", 2, 6),
+    Blas2Mark("Marks of Martyrdom (4)", IC.useful, "MM|4", 3, 6),
+    Blas2Mark("Marks of Martyrdom (3)", IC.useful, "MM|3", 4, 8),
+    Blas2Mark("Marks of Martyrdom (2)", IC.useful, "MM|2", 3, 10),
+    Blas2Mark("Marks of Martyrdom (1)", IC.useful, "MM|1", 35, 17),
     Blas2Item("Mark of the Preceptor", IC.useful, "MP|1", 14), # (DLC)
     Blas2Item("Tears of Atonement (10000)", IC.filler, "TA|10000", 1),
     Blas2Item("Tears of Atonement (5000)", IC.filler, "TA|5000", 7),
@@ -239,12 +245,6 @@ group_table: Dict[str, Set[str]] = {
                  "Key of Salt",
                  "Key of the Council",
                  "Mirrored Key"},
-
-    "tools": {"Tears of Sap",
-              "Immaculate Mother-of-Pearl Gouge",
-              "Oils of the Blessed Mixture",
-              "Silver Shell File",
-              "Sculptor's Resonant Gavel"},
 
     "penitence": {"Soleá of Excommunication",
                   "Bleeding Chalice",

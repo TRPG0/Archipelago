@@ -2,7 +2,7 @@ import json
 from typing import Dict, Any
 from BaseClasses import Tutorial, Item, Location, Region, ItemClassification
 from worlds.AutoWorld import World, WebWorld
-from .Items import item_list, filler_list, locked_items, group_table
+from .Items import item_list, filler_list, locked_items, group_table, Blas2Mark
 from .Locations import location_names, location_descriptions
 from .LocationFlags import location_flags
 from .Rules import Blas2Rules
@@ -95,6 +95,9 @@ class Blasphemous2World(World):
             if item.name == "Cherub" and not self.options.shuffle_cherubs:
                 count = 0
 
+            if isinstance(item, Blas2Mark) and self.options.martyrdom_xp == "from_items":
+                count = item.alt_count
+
             if count <= 0:
                 continue
             else:
@@ -151,7 +154,7 @@ class Blasphemous2World(World):
         }
 
         slot_data = {
-            "worldVersion": "1.0.2",
+            "worldVersion": "1.1.0",
             "settings": settings,
             "ending": self.options.ending.value
         }
