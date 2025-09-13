@@ -147,6 +147,7 @@ class Blasphemous2World(World):
             "RequiredKeys": self.options.required_keys.value,
             "StartingWeapon": self.options.starting_weapon.value,
             "ShopMultiplier": self.options.shop_multiplier.value,
+            "MartyrdomExperience": self.options.martyrdom_xp.value,
             "AddPenitenceRewards": self.options.add_penitence_rewards.value,
             "ShuffleCherubs": self.options.shuffle_cherubs.value,
             #"ShuffleLongQuests": bool(not self.options.exclude_long_quests.value),
