@@ -2697,13 +2697,9 @@ locations = [
         "logic": [
             {
                 "item_requirements": [
+                    "cherubs24",
                     "wallclimb",
-                    "doublejump",
-                    "airdash",
-                    "ringclimb",
-                    "censer",
-                    "rapier",
-                    "rosaryfx"
+                    "doublejump"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3128,7 +3124,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "censer"
+                    "censer",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3144,7 +3141,8 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "doublejump",
-                    "airdash"
+                    "airdash",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3160,7 +3158,8 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "doublejump",
-                    "airdash"
+                    "airdash",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3177,7 +3176,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "ringclimb"
+                    "ringclimb",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3193,7 +3193,8 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "doublejump",
-                    "airdash"
+                    "airdash",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -3209,7 +3210,8 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "doublejump",
-                    "airdash"
+                    "airdash",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4584,7 +4586,8 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "doublejump",
-                    "airdash"
+                    "airdash",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4600,7 +4603,8 @@ locations = [
                 "item_requirements": [
                     "wallclimb",
                     "doublejump",
-                    "airdash"
+                    "airdash",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4618,7 +4622,8 @@ locations = [
                     "doublejump",
                     "airdash",
                     "rosaryfx",
-                    "censer"
+                    "censer",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4635,7 +4640,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosaryfx"
+                    "rosaryfx",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4652,7 +4658,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosaryfx"
+                    "rosaryfx",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4669,7 +4676,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosaryfx"
+                    "rosaryfx",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4687,7 +4695,8 @@ locations = [
                     "doublejump",
                     "airdash",
                     "rosaryfx",
-                    "ringclimb"
+                    "ringclimb",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4704,7 +4713,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosaryfx"
+                    "rosaryfx",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4721,7 +4731,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosaryfx"
+                    "rosaryfx",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4739,7 +4750,8 @@ locations = [
                     "doublejump",
                     "airdash",
                     "rosaryfx",
-                    "regulacloth"
+                    "regulacloth",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4756,7 +4768,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosaryfx"
+                    "rosaryfx",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
@@ -4773,7 +4786,8 @@ locations = [
                     "wallclimb",
                     "doublejump",
                     "airdash",
-                    "rosaryfx"
+                    "rosaryfx",
+                    "rapier"
                 ],
                 "location_requirements": [],
                 "region_requirements": [],
