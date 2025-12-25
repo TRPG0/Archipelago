@@ -43,6 +43,7 @@ class Blas2Rules:
             # Cherub quest
             "cherubs10": lambda state: self.cherubs(state, 10),
             "cherubs17": lambda state: self.cherubs(state, 17),
+            "cherubs24": lambda state: self.cherubs(state, 24),
             "cherubs29": lambda state: self.cherubs(state, 29),
             "cherubs33": lambda state: self.cherubs(state, 33),
             "rattle": self.rattle,
